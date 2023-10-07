@@ -29,7 +29,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo apt-get install -y cmake valgrind
+        sudo apt update
+        sudo apt-get install -y cmake
+        sudo apt-get install -y valgrind
 
     - name: Configure
       run: |
