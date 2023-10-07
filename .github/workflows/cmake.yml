@@ -1,0 +1,49 @@
+name: CI Test
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - dev
+  pull_request:
+    branches:
+      - main
+      - master
+      - dev
+
+env:
+  BUILD_TYPE: Debug
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      PROJECT_DIR: ${{ github.workspace }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get install -y cmake valgrind doxygen
+
+    - name: Configure
+      run: |
+        mkdir build
+        cd build
+        cmake .. -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+      working-directory: ${{ env.PROJECT_DIR }}
+
+    - name: Build
+      run: |
+        make
+      working-directory: ${{ env.PROJECT_DIR }}/build
+
+    - name: Run Tests
+      run: |
+        valgrind make test
+      working-directory: ${{ env.PROJECT_DIR }}/build

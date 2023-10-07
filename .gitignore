@@ -1,0 +1,15 @@
+*.exe
+*.out
+*.gch
+
+*.vscode
+*.clang-format
+
+bin/
+obj/
+
+build/
+testbuild/
+
+cmake-build-debug/
+cmake-build-release/

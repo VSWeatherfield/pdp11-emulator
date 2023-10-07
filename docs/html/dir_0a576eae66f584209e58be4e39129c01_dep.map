@@ -1,0 +1,13 @@
+<map id="/home/vsweatherfield/projects/PDP11_Emulator/src/core/configs" name="/home/vsweatherfield/projects/PDP11_Emulator/src/core/configs">
+<area shape="rect" id="node1" href="dir_1c9af7117be1e9a256de1b82880663e4.html" title="tracer" alt="" coords="35,244,107,292"/>
+<area shape="rect" id="node4" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html" title="common" alt="" coords="105,340,183,388"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000017_000001.html" title="2" alt="" coords="117,313,126,328"/>
+<area shape="rect" id="node2" href="dir_8e8099a813b6d117dd34ac16a769637d.html" title="pdp_emulator" alt="" coords="53,148,165,196"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000015_000017.html" title="1" alt="" coords="90,223,100,238"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000015_000001.html" title="4" alt="" coords="140,313,150,328"/>
+<area shape="rect" id="node3" href="dir_0a576eae66f584209e58be4e39129c01.html" title="configs" alt="" coords="73,52,145,100"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000013_000017.html" title="1" alt="" coords="52,216,61,231"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000013_000015.html" title="1" alt="" coords="113,122,122,137"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000013_000001.html" title="2" alt="" coords="165,319,175,334"/>
+<area shape="rect" id="clust1" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html" title="core" alt="" coords="16,16,176,303"/>
+</map>
